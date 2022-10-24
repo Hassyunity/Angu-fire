@@ -4,16 +4,20 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { TaskComponent } from './task/task.component';
+import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
   declarations: [
     AppComponent,
+    TaskComponent,
   ],
   imports: [
     BrowserModule,
     MatToolbarModule,
     MatIconModule,
     BrowserAnimationsModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
